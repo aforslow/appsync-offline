@@ -1,0 +1,24 @@
+{
+  "name": "blogposthandler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "rm -rf node_modules/@conduitvc/appsync-emulator-serverless/node_modules/velocityjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@conduitvc/appsync-emulator-serverless": "^0.14.5",
+    "@conduitvc/dynamodb-emulator": "file:conduitvc/conduitvc-dynamodb-emulator-0.5.3/package",
+    "serverless-offline": "^6.4.0",
+    "velocityjs": "^2.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.697.0",
+    "serverless-appsync-offline": "^1.4.0",
+    "serverless-appsync-plugin": "^1.3.1",
+    "serverless-dynamodb-local": "^0.2.39"
+  }
+}
