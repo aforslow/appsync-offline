@@ -12,7 +12,7 @@
   "devDependencies": {
     "@conduitvc/appsync-emulator-serverless": "^0.14.5",
     "@conduitvc/dynamodb-emulator": "file:conduitvc/conduitvc-dynamodb-emulator-0.5.3/package",
-    "serverless-offline": "^6.4.0",
+    "serverless-offline": "^12.0.4",
     "velocityjs": "^2.0.0"
   },
   "dependencies": {
